@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "sayori.poses.front_facing.shinypants.edave64",
+		"name": "Front Facing Sayori", 
+		"characters": ["Sayori"], 
+		"authors": ["ThoseDamnShinyPants"],
+		"ddcc2Path": "",
+		"kind": ["Poses"],
+		"source": "https://redd.it/rbt9yc",
+		"dddg1Path": "index.json",
+		"description": "Created by <a href='https://redd.it/rbt9yc' target='_blank' rel='noopener noreferrer'>ThoseDamnShinyPants", 
+		"preview": ["a.png", "1l.png", "1r.png"],
+		"searchWords": []
+	}, 
+	"authors": {
+		"ThoseDamnShinyPants": {
+			"reddit": "ThoseDamnShinyPants"
+		}
+	}
+}
