@@ -1,46 +1,61 @@
 {
-	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
-	"id": "ddlc.sayori",
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
 	"packId": "sayori.poses.front_facing.shinypants.edave64",
+	"packName": "Front Facing Sayori (ShinyPants)",
 	"folder": "./",
 	"source": "https://redd.it/rbt9yc",
-	"heads": {
-		"straight_tdsp": [
-			"a.png",
-			"b.png",
-			"c.png", 
-			"d.png",
-			"e.png",
-			"f.png",
-			"g.png",
-			"h.png",
-			"i.png",
-			"j.png",
-			"k.png",
-			"l.png",
-			"m.png",
-			"n.png",
-			"o.png",
-			"p.png",
-			"q.png",
-			"r.png",
-			"s.png",
-			"t.png",
-			"u.png",
-			"v.png",
-			"w.png",
-			"x.png",
-			"y.png"
-		]
-	},
-	"styles": [],
-	"poses": [
+	"characters": [
 		{
-			"style": "uniform",
-			"name": "uniform_front_facing",
-			"compatibleHeads": ["straight_tdsp"],
-			"left": ["1l.png", "2l.png"],
-			"right": ["1r.png", "2r.png"]
+			"id": "dddg.buildin.base.sayori:ddlc.sayori",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "straight",
+									"compatibleHeads": ["straight_tdsp"],
+									"positions": {
+										"Left": [["1l.png"], ["2l.png"]],
+										"Right": [["1r.png"], ["2r.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"heads": {
+				"straight_tdsp": [
+					["a.png"],
+					["b.png"],
+					["c.png"], 
+					["d.png"],
+					["e.png"],
+					["f.png"],
+					["g.png"],
+					["h.png"],
+					["i.png"],
+					["j.png"],
+					["k.png"],
+					["l.png"],
+					["m.png"],
+					["n.png"],
+					["o.png"],
+					["p.png"],
+					["q.png"],
+					["r.png"],
+					["s.png"],
+					["t.png"],
+					["u.png"],
+					["v.png"],
+					["w.png"],
+					["x.png"],
+					["y.png"]
+				]
+			}
 		}
 	]
 }
