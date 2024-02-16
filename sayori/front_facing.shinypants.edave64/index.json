@@ -10,7 +10,7 @@
 			"id": "dddg.buildin.sayori:ddlc.sayori",
 			"styleGroups": [
 				{
-					"id": "uniform",
+					"id": "dddg.buildin.sayori:uniform",
 					"styles": [
 						{
 							"poses": [
