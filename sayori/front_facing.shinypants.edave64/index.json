@@ -1,13 +1,14 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.sayori",
-	"folder": "./",
 	"packId": "sayori.poses.front_facing.shinypants.edave64",
+	"folder": "./",
+	"source": "https://redd.it/rbt9yc",
 	"heads": {
-		"front_facing_shinypants": [
+		"straight_tdsp": [
 			"a.png",
 			"b.png",
-			"c.png",
+			"c.png", 
 			"d.png",
 			"e.png",
 			"f.png",
@@ -37,7 +38,7 @@
 		{
 			"style": "uniform",
 			"name": "uniform_front_facing",
-			"compatibleHeads": ["front_facing_shinypants"],
+			"compatibleHeads": ["straight_tdsp"],
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
 		}
