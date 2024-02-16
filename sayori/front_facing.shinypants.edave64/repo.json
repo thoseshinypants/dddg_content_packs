@@ -9,7 +9,7 @@
 		"source": "https://redd.it/rbt9yc",
 		"dddg1Path": "index.json",
 		"description": "Created by <a href='https://redd.it/rbt9yc' target='_blank' rel='noopener noreferrer'>ThoseDamnShinyPants", 
-		"preview": ["a.png", "1l.png", "1r.png"],
+		"preview": ["./a.png", "./1l.png", "./1r.png"],
 		"searchWords": []
 	}, 
 	"authors": {
