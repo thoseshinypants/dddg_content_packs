@@ -1,13 +1,13 @@
 {
 	"pack": {
 		"id": "sayori.poses.front_facing.shinypants.edave64",
-		"name": "Front Facing Sayori", 
+		"name": "Front Facing Sayori (ShinyPants)", 
 		"characters": ["Sayori"], 
 		"authors": ["ThoseDamnShinyPants"],
 		"kind": ["Poses"],
 		"source": "https://redd.it/rbt9yc",
-		"dddg1Path": "https://thoseshinypants.github.io/dddg_content_packs/sayori/front_facing.shinypants.edave64/index.json",
-		"description": "Created by <a href='https://redd.it/rbt9yc' target='_blank' rel='noopener noreferrer'>ThoseDamnShinyPants", 
+		"dddg2Path": "https://thoseshinypants.github.io/dddg_content_packs/sayori/front_facing.shinypants.edave64/index.json",
+		"description": "Created by <a href='https://www.reddit.com/user/ThoseDamnShinyPants' target='_blank' rel='noopener noreferrer'>ThoseDamnShinyPants</a>", 
 		"preview": [
 			"https://thoseshinypants.github.io/dddg_content_packs/sayori/front_facing.shinypants.edave64/a.png", 
 			"https://thoseshinypants.github.io/dddg_content_packs/sayori/front_facing.shinypants.edave64/1l.png", 
