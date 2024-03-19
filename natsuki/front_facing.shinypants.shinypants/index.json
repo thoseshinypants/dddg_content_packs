@@ -1,0 +1,69 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "natsuki.poses.front_facing.shinypants.shinypants",
+	"packName": "Front Facing Natsuki (ShinyPants)",
+	"folder": "./",
+	"source": "https://redd.it/1b3zdad",
+	"characters": [
+		{
+			"id": "dddg.buildin.base.natsuki:ddlc.natsuki",
+			"styleGroups": [
+				{
+					"id": "dddg.buildin.base.natsuki:uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "straight",
+									"compatibleHeads": ["straight_tdsp"],
+									"positions": {
+										"Left": [["1l.png"], ["2l.png"]],
+										"Right": [["1r.png"], ["2r.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"heads": {
+				"straight_tdsp": [
+					["a.png"],
+					["b.png"],
+					["c.png"],
+					["d.png"],
+					["e.png"],
+					["f.png"],
+					["g.png"],
+					["h.png"],
+					["i.png"],
+					["j.png"],
+					["k.png"],
+					["l.png"],
+					["m.png"],
+					["n.png"],
+					["o.png"],
+					["p.png"],
+					["q.png"],
+					["r.png"],
+					["s.png"],
+					["t.png"],
+					["u.png"],
+					["v.png"],
+					["w.png"],
+					["x.png"],
+					["y.png"],
+					["z.png"],
+					["aa.png"],
+					["ab.png"],
+					["ac.png"],
+					["ad.png"],
+					["ae.png"],
+					["af.png"],
+					["ag.png"]
+				]
+			}
+		}
+	]
+}
