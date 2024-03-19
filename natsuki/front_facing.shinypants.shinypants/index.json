@@ -9,7 +9,7 @@
 		{
 			"id": "dddg.buildin.base.natsuki:ddlc.natsuki",
 			"heads": {
-				"dddg.buildin.base.natsuki:straight": [
+				"tdsp_straight": [
 					["a.png"],
 					["b.png"],
 					["c.png"],
@@ -44,7 +44,7 @@
 					["af.png"],
 					["ag.png"]
 				],
-				"dddg.buildin.base.natsuki:casual": [
+				"tdsp_straight_casual": [
 					["ba.png"],
 					["bb.png"],
 					["bc.png"],
@@ -79,7 +79,47 @@
 					["baf.png"],
 					["bag.png"]
 				]
-			}
+			},
+			"styleGroups": [
+				{
+					"id": "dddg.buildin.base.natsuki:uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"compatibleHeads": ["tdsp_straight"],
+									"id": "dddg.buildin.base.natsuki:normal"
+								},
+								{
+									"compatibleHeads": ["tdsp_straight"],
+									"id": "dddg.buildin.base.natsuki:crossed_arms",
+									"renderCommands": [
+										{ "type": "image", "images": ["3{ext}"] },
+										{ "type": "head", "offset": [18, 22] }
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "dddg.buildin.base.natsuki:casual",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "dddg.buildin.base.natsuki:normal",
+									"compatibleHeads": ["tdsp_straight_casual"]
+								},
+								{
+									"id": "dddg.buildin.base.natsuki:crossed_arms",
+									"compatibleHeads": ["tdsp_straight_casual"]
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
