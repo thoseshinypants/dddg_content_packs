@@ -8,27 +8,8 @@
 	"characters": [
 		{
 			"id": "dddg.buildin.base.natsuki:ddlc.natsuki",
-			"styleGroups": [
-				{
-					"id": "dddg.buildin.base.natsuki:uniform",
-					"styles": [
-						{
-							"poses": [
-								{
-									"id": "straight",
-									"compatibleHeads": ["straight"],
-									"positions": {
-										"Left": [["1l.png"], ["2l.png"]],
-										"Right": [["1r.png"], ["2r.png"]]
-									}
-								}
-							]
-						}
-					]
-				}
-			],
 			"heads": {
-				"straight": [
+				"dddg.buildin.base.natsuki:straight": [
 					["a.png"],
 					["b.png"],
 					["c.png"],
