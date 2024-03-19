@@ -16,7 +16,7 @@
 							"poses": [
 								{
 									"id": "straight",
-									"compatibleHeads": ["straight_tdsp"],
+									"compatibleHeads": ["straight_tdsp", "straight"],
 									"positions": {
 										"Left": [["1l.png"], ["2l.png"]],
 										"Right": [["1r.png"], ["2r.png"]]
