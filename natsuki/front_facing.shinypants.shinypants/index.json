@@ -87,21 +87,11 @@
 						{
 							"poses": [
 								{
-									"compatibleHeads": [
-										"dddg.buildin.base.natsuki:straight", 
-										"dddg.buildin.base.natsuki:sideways", 
-										"tdsp_straight", 
-										"dddg.buildin.base.natsuki:turnedAway"
-									],
+									"compatibleHeads": ["tdsp_straight"],
 									"id": "dddg.buildin.base.natsuki:normal"
 								},
 								{
-									"compatibleHeads": [
-										"dddg.buildin.base.natsuki:straight", 
-										"dddg.buildin.base.natsuki:sideways", 
-										"tdsp_straight", 
-										"dddg.buildin.base.natsuki:turnedAway"
-									],
+									"compatibleHeads": ["tdsp_straight"],
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
 									"renderCommands": [
 										{ "type": "image", "images": ["3{ext}"] },
@@ -119,21 +109,11 @@
 							"poses": [
 								{
 									"id": "dddg.buildin.base.natsuki:normal",
-									"compatibleHeads": [
-										"dddg.buildin.base.natsuki:straight", 
-										"dddg.buildin.base.natsuki:sideways", 
-										"tdsp_casual_straight", 
-										"dddg.buildin.base.natsuki:turnedAway"
-									]
+									"compatibleHeads": ["tdsp_straight_casual"]
 								},
 								{
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
-									"compatibleHeads": [
-										"dddg.buildin.base.natsuki:straight", 
-										"dddg.buildin.base.natsuki:sideways", 
-										"tdsp_casual_straight", 
-										"dddg.buildin.base.natsuki:turnedAway"
-									]
+									"compatibleHeads": ["tdsp_straight_casual"]
 								}
 							]
 						}
