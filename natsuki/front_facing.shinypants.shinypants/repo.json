@@ -9,9 +9,8 @@
 		"dddg2Path": "https://thoseshinypants.github.io/dddg_content_packs/natsuki/front_facing.shinypants.shinypants/index.json",
 		"description": "Created by <a href='https://www.reddit.com/user/ThoseDamnShinyPants' target='_blank' rel='noopener noreferrer'>ThoseDamnShinyPants</a>",
 		"preview": [
-			"https://thoseshinypants.github.io/dddg_content_packs/natsuki/front_facing.shinypants.shinypants/a.png",
-			"dddg.buildin.base.natsuki:uniform:1l",
-			"dddg.buildin.base.natsuki:uniform:1r"],
+			"https://thoseshinypants.github.io/dddg_content_packs/natsuki/front_facing.shinypants.shinypants/a.png"
+		],
 		"searchWords": []
 	},
 	"authors": {
