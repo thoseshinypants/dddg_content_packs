@@ -97,6 +97,7 @@
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
 									"renderCommands": [
 										{ "type": "image", "images": ["3{ext}"] },
+										{ "type": "neck", "images": ["neck.png"] },
 										{ "type": "head", "offset": [18, 22] }
 									]
 								}
@@ -115,7 +116,11 @@
 								},
 								{
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
-									"compatibleHeads": ["tdsp_straight_casual"]
+									"compatibleHeads": ["tdsp_straight_casual"],
+									"renderCommands": [
+										{ "type": "image", "images": ["3{ext}"] },
+										{ "type": "head", "offset": [18, 22] }
+									]
 								}
 							]
 						}
