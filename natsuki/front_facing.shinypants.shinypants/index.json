@@ -45,6 +45,42 @@
 					["ag.png"],
 					["ah.png"]
 				],
+				"tdsp_straight_crossed": [
+					["ca.png"],
+					["cb.png"],
+					["cc.png"],
+					["cd.png"],
+					["ce.png"],
+					["cf.png"],
+					["cg.png"],
+					["ch.png"],
+					["ci.png"],
+					["cj.png"],
+					["ck.png"],
+					["cl.png"],
+					["cm.png"],
+					["cn.png"],
+					["co.png"],
+					["cp.png"],
+					["cq.png"],
+					["cr.png"],
+					["cs.png"],
+					["ct.png"],
+					["cu.png"],
+					["cv.png"],
+					["cw.png"],
+					["cx.png"],
+					["cy.png"],
+					["cz.png"],
+					["caa.png"],
+					["cab.png"],
+					["cac.png"],
+					["cad.png"],
+					["cae.png"],
+					["caf.png"],
+					["cag.png"],
+					["cah.png"]
+				],
 				"tdsp_straight_casual": [
 					["ba.png"],
 					["bb.png"],
@@ -80,6 +116,42 @@
 					["baf.png"],
 					["bag.png"],
 					["bah.png"]
+				],
+				"tdsp_casual_crossed": [
+					["da.png"],
+					["db.png"],
+					["dc.png"],
+					["dd.png"],
+					["de.png"],
+					["df.png"],
+					["dg.png"],
+					["dh.png"],
+					["di.png"],
+					["dj.png"],
+					["dk.png"],
+					["dl.png"],
+					["dm.png"],
+					["dn.png"],
+					["do.png"],
+					["dp.png"],
+					["dq.png"],
+					["dr.png"],
+					["ds.png"],
+					["dt.png"],
+					["du.png"],
+					["dv.png"],
+					["dw.png"],
+					["dx.png"],
+					["dy.png"],
+					["dz.png"],
+					["daa.png"],
+					["dab.png"],
+					["dac.png"],
+					["dad.png"],
+					["dae.png"],
+					["daf.png"],
+					["dag.png"],
+					["dah.png"]
 				]
 			},
 			"styleGroups": [
@@ -93,11 +165,10 @@
 									"id": "dddg.buildin.base.natsuki:normal"
 								},
 								{
-									"compatibleHeads": ["tdsp_straight"],
+									"compatibleHeads": ["tdsp_straight_crossed"],
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
 									"renderCommands": [
 										{ "type": "image", "images": ["3{ext}"] },
-										{ "type": "neck", "images": ["neck.png"] },
 										{ "type": "head", "offset": [18, 22] }
 									]
 								}
@@ -116,11 +187,7 @@
 								},
 								{
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
-									"compatibleHeads": ["tdsp_straight_casual"],
-									"renderCommands": [
-										{ "type": "image", "images": ["3{ext}"] },
-										{ "type": "head", "offset": [18, 22] }
-									]
+									"compatibleHeads": ["tdsp_casual_crossed"]
 								}
 							]
 						}
