@@ -42,116 +42,7 @@
 					["ad.png"],
 					["ae.png"],
 					["af.png"],
-					["ag.png"],
-					["ah.png"]
-				],
-				"tdsp_straight_crossed": [
-					["ca.png"],
-					["cb.png"],
-					["cc.png"],
-					["cd.png"],
-					["ce.png"],
-					["cf.png"],
-					["cg.png"],
-					["ch.png"],
-					["ci.png"],
-					["cj.png"],
-					["ck.png"],
-					["cl.png"],
-					["cm.png"],
-					["cn.png"],
-					["co.png"],
-					["cp.png"],
-					["cq.png"],
-					["cr.png"],
-					["cs.png"],
-					["ct.png"],
-					["cu.png"],
-					["cv.png"],
-					["cw.png"],
-					["cx.png"],
-					["cy.png"],
-					["cz.png"],
-					["caa.png"],
-					["cab.png"],
-					["cac.png"],
-					["cad.png"],
-					["cae.png"],
-					["caf.png"],
-					["cag.png"],
-					["cah.png"]
-				],
-				"tdsp_straight_casual": [
-					["ba.png"],
-					["bb.png"],
-					["bc.png"],
-					["bd.png"],
-					["be.png"],
-					["bf.png"],
-					["bg.png"],
-					["bh.png"],
-					["bi.png"],
-					["bj.png"],
-					["bk.png"],
-					["bl.png"],
-					["bm.png"],
-					["bn.png"],
-					["bo.png"],
-					["bp.png"],
-					["bq.png"],
-					["br.png"],
-					["bs.png"],
-					["bt.png"],
-					["bu.png"],
-					["bv.png"],
-					["bw.png"],
-					["bx.png"],
-					["by.png"],
-					["bz.png"],
-					["baa.png"],
-					["bab.png"],
-					["bac.png"],
-					["bad.png"],
-					["bae.png"],
-					["baf.png"],
-					["bag.png"],
-					["bah.png"]
-				],
-				"tdsp_casual_crossed": [
-					["da.png"],
-					["db.png"],
-					["dc.png"],
-					["dd.png"],
-					["de.png"],
-					["df.png"],
-					["dg.png"],
-					["dh.png"],
-					["di.png"],
-					["dj.png"],
-					["dk.png"],
-					["dl.png"],
-					["dm.png"],
-					["dn.png"],
-					["do.png"],
-					["dp.png"],
-					["dq.png"],
-					["dr.png"],
-					["ds.png"],
-					["dt.png"],
-					["du.png"],
-					["dv.png"],
-					["dw.png"],
-					["dx.png"],
-					["dy.png"],
-					["dz.png"],
-					["daa.png"],
-					["dab.png"],
-					["dac.png"],
-					["dad.png"],
-					["dae.png"],
-					["daf.png"],
-					["dag.png"],
-					["dah.png"]
+					["ag.png"]
 				]
 			},
 			"styleGroups": [
@@ -161,11 +52,15 @@
 						{
 							"poses": [
 								{
+									"id": "straight",
 									"compatibleHeads": ["tdsp_straight"],
-									"id": "dddg.buildin.base.natsuki:normal"
+									"positions": {
+										"Left": [["1l.png"], ["2l.png"]],
+										"Right": [["1r.png"], ["2r.png"]]
+									}
 								},
 								{
-									"compatibleHeads": ["tdsp_straight_crossed"],
+									"compatibleHeads": ["tdsp_straight"],
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
 									"renderCommands": [
 										{ "type": "image", "images": ["3{ext}"] },
@@ -182,12 +77,20 @@
 						{
 							"poses": [
 								{
-									"id": "dddg.buildin.base.natsuki:normal",
-									"compatibleHeads": ["tdsp_straight_casual"]
+									"id": "straight_casual",
+									"compatibleHeads": ["tdsp_straight"],
+									"positions": {
+										"Left": [["3l.png"], ["4l.png"]],
+										"Right": [["3r.png"], ["4r.png"]]
+									}
 								},
 								{
+									"compatibleHeads": ["tdsp_straight"],
 									"id": "dddg.buildin.base.natsuki:crossed_arms",
-									"compatibleHeads": ["tdsp_casual_crossed"]
+									"renderCommands": [
+										{ "type": "image", "images": ["3{ext}"] },
+										{ "type": "head", "offset": [18, 22] }
+									]
 								}
 							]
 						}
