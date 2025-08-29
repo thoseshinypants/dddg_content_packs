@@ -77,7 +77,7 @@
 						{
 							"poses": [
 								{
-									"id": "straight_casual",
+									"id": "straight",
 									"compatibleHeads": ["tdsp_straight"],
 									"positions": {
 										"Left": [["3l.png"], ["4l.png"]],
